@@ -1,0 +1,7 @@
+crazyflies:
+  # U1: test UAV controlled by the HRA-APF obstacle-avoidance controller.
+  # chooser.py may overwrite initialPosition for real hardware.
+  - {id: 8, channel: 100, initialPosition: [0.50, 1.00, 0.00], type: default}
+
+  # U2: real dynamic obstacle UAV.
+  - {id: 3, channel: 100, initialPosition: [1.70, 1.65, 0.00], type: default}

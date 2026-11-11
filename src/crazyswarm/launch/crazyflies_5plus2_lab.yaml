@@ -1,0 +1,12 @@
+crazyflies:
+  # Formation UAVs controlled by the HRA-APF formation controller.
+  # chooser.py may overwrite initialPosition for real hardware.
+  - {id: 1, channel: 100, initialPosition: [-0.70,  0.00, 0.00], type: default}
+  - {id: 2, channel: 100, initialPosition: [-1.00,  0.30, 0.00], type: default}
+  - {id: 3, channel: 100, initialPosition: [-1.00,  0.00, 0.00], type: default}
+  - {id: 4, channel: 100, initialPosition: [-1.00, -0.30, 0.00], type: default}
+  - {id: 5, channel: 100, initialPosition: [-1.30,  0.00, 0.00], type: default}
+
+  # Independent staggered moving obstacle UAVs.
+  - {id: 6, channel: 100, initialPosition: [-0.05,  0.70, 0.00], type: default}
+  - {id: 7, channel: 100, initialPosition: [ 0.85, -0.70, 0.00], type: default}

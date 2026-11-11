@@ -1,0 +1,15 @@
+# lmpc_crazyswarm_sim12:triangle-v4-noleader
+crazyflies:
+- id: 1
+  channel: 100
+  initialPosition: [0.30, 0.35, 0.0]
+  type: default
+- id: 2
+  channel: 101
+  initialPosition: [0.55, 0.55, 0.0]
+  type: default
+- id: 3
+  channel: 102
+  initialPosition: [0.35, 0.75, 0.0]
+  type: default
+

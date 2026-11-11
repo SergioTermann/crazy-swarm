@@ -1,0 +1,22 @@
+crazyflies:
+- channel: 60
+  id: 3
+  initialPosition:
+  - 0.5
+  - -0.5
+  - 0.0
+  type: default
+- channel: 75
+  id: 4
+  initialPosition:
+  - 0.0
+  - 0.5
+  - 0.0
+  type: default
+- channel: 70
+  id: 12
+  initialPosition:
+  - -1.0
+  - -0.5
+  - 0.0
+  type: default

@@ -1,0 +1,14 @@
+# 独立仿真配置：不要用于替换实机无线电配置。
+crazyflies:
+  - id: 3
+    channel: 80
+    initialPosition: [0.0, -1.0, 0.0]
+    type: default
+  - id: 4
+    channel: 80
+    initialPosition: [0.0, 0.0, 0.0]
+    type: default
+  - id: 12
+    channel: 80
+    initialPosition: [0.0, 1.0, 0.0]
+    type: default
